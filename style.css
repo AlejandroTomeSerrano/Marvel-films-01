@@ -1,7 +1,7 @@
 :root {
   /* COLOR PALETTE */
   --rc-color-n-050: #ffff;
-  --rc-color-n-300: #ffff;
+  --rc-color-n-300: #f0e6e6ad;
   --rc-color-n-500: #792121;
 
   /* BACKGROUND COLOR */
@@ -18,7 +18,7 @@
   /* FONT SIZE */
   --rc-typography-h1: 1.8rem;
   --rc-typography-h2: 1.2rem;
-  --mv-typography-h3: 1.1rem;
+  --rc-typography-h3: 1.1rem;
   --rc-typography-p: 0.9rem;
 
   /* LETTER SPACING */
@@ -34,7 +34,7 @@
   --rc-img-padding: 1rem;
 
   /* BORDER */
-  --rc-border: 0.12rem solid var(--rc-color-n-050);
+  --rc-border: 0.01rem  var(--rc-color-n-050);
 
   /* SIZING */
   --rc-image-height: 18rem;
@@ -88,6 +88,10 @@ h1 {
 
 h2 {
   font-size: var(--rc-typography-h2);
+}
+
+h3 {
+  font-size: var(--rc-typography-h3);
 }
 
 li {
