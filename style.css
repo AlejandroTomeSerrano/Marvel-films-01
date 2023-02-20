@@ -189,6 +189,9 @@ li {
   .rc-section-header-nav {
     flex-direction: column;
   }
+  .rc-section-video {
+    display: none;
+  }
 }
 
 /* HERO */
@@ -263,4 +266,10 @@ li {
   :root {
     --rc-typography-h1: calc(1.9rem / 1.5);
   }
+}
+
+footer{
+  height: 3.125rem;
+  line-height: 3.125rem;
+  width: 100%;
 }
